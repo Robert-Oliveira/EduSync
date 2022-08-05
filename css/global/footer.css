@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container_footer {
+  display: flex;
+  background-color: #660027;
+  flex-direction: column;
+  height: 120px;
+  justify-content: center;
+  margin-top: 72px;
+}
+.container_footer p {
+  text-align: center;
+  color: #fefefe;
+  font-size: 14px;
+  padding-top: 10px;
+}

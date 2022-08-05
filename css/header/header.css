@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+header {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 71px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header img {
+  width: 155px;
+  height: 70px;
+}
+ul {
+  display: flex;
+  gap: 40px;
+}
+li {
+  list-style: none;
+}
+.header ul li a {
+  color: #000000;
+  font-size: 14px;
+}

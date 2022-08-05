@@ -1,0 +1,88 @@
+header,
+article {
+  flex-wrap: wrap;
+}
+
+/*celular*/
+@media (max-width: 360px) {
+  header,
+  header ul {
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    margin: auto;
+  }
+
+  .row {
+    display: flex;
+    width: 320px;
+    height: 700px;
+  }
+  .container {
+    display: flex;
+  }
+
+  .container input,
+  .container textarea {
+    width: 263px;
+  }
+  .container label {
+    font-size: 14px;
+  }
+  .container button {
+    margin-top: 30px;
+  }
+  .container_lateral_footer {
+    display: none;
+    visibility: hidden;
+  }
+  .container_inferior_footer {
+    display: block;
+    visibility: visible;
+    background-color: #660027;
+    color: #fefefe;
+    height: 120px;
+    margin-top: 43px;
+  }
+  .container_inferior_footer p {
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+/* Tablet*/
+@media (max-width: 768px) {
+  main {
+    width: 595px;
+    margin: auto;
+    align-items: center;
+  }
+  .header {
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    width: 320px;
+    height: 700px;
+  }
+  .container {
+    display: flex;
+  }
+
+  .container input,
+  .container textarea {
+    width: 263px;
+  }
+  .container label {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .container_lateral_footer {
+    width: 256px;
+    margin-top: 51px;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  .container label {
+    font-size: 16px;
+  }
+}

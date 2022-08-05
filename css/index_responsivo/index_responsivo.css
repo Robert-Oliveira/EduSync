@@ -1,0 +1,57 @@
+header,
+article {
+  flex-wrap: wrap;
+}
+/* Tablet*/
+@media (max-width: 768px) {
+  header {
+    margin-top: 20px;
+    max-width: 595px;
+  }
+  main .img_bg {
+    display: none;
+  }
+
+  main .paragrafo p {
+    padding-top: 10px;
+  }
+  article {
+    display: flex;
+  }
+  .container_index {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .container_index .card {
+    margin-top: 20px;
+  }
+}
+
+/*celular*/
+@media (max-width: 360px) {
+  header,
+  header nav {
+    width: 155px;
+    gap: 10px;
+  }
+  header nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .dropdown {
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  main {
+    width: 320px;
+  }
+
+  main .img_bg {
+    display: none;
+  }
+  .container_index {
+    display: flex;
+    justify-content: center;
+  }
+}
